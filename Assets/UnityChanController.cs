@@ -35,6 +35,7 @@ public class UnityChanController : MonoBehaviour {
 	//右ボタン押下の判断
 	private bool isRButtonDown = false;
 
+
 	// Use this for initialization
 	void Start () {
 		//Animatorコンポーネントを取得
@@ -94,6 +95,8 @@ public class UnityChanController : MonoBehaviour {
 			//Unityちゃんに上方向の力を加える
 			this.myRigidbody.AddForce(this.transform.up * this.upForce);
 		}
+
+
 	}
 
 	//トリガーモードで他のオブジェクトと接触した場合の処理
